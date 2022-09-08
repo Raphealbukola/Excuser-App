@@ -40,8 +40,8 @@ function Excuser() {
  } 
   return (
     <>
-<section className='py-5'>
-<div className='container-fluid bg-light py-4 shadow col-lg-5 '>
+<section className='py-5 all'>
+<div className='container-fluid bg-light py-4 shadow col-lg-5 col-sm-10 '>
     <p className='text-center h3 mb-4'>Excuse to all Question</p>
 <div className='' id='bt'>
 <button className='btn btn1 col-lg-2 p-2 ' onClick={getFamily}>Family</button>
@@ -55,7 +55,7 @@ function Excuser() {
 
 {excuser.map((user)=>(
             <>
-             <div key={user.id} className='col-lg-4 col-sm-11 text-center mt-5 bg-light  h1 my shadow mx-auto'>
+             <div key={user.id} className='col-lg-4 col-sm-11 text-center mt-5 bg-light p-4 h3 my shadow mx-auto'>
              <div>{user.excuse}</div>
 
              </div>

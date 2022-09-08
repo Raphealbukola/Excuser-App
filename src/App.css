@@ -34,12 +34,16 @@
   align-items: center;
 }
  .my{
-    background-repeat: no-repeat;
     animation: move 2s linear forwards;
+    /* background-color: rgb(10, 82, 217); */
  }
  @keyframes move {
   0%{transform:translateX(-200%);}
 }
 .section{
   height: 100vh
+}
+.all{
+  /* background-color: cornflowerblue; */
+  height: 100vh;
 }
